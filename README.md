@@ -1,16 +1,15 @@
-![ackee|tezosgen](Resources/cover-image.png)
 
-![Tests](https://github.com/AckeeCZ/tezosgen/workflows/Tests/badge.svg)
+
+
 [![Version](https://img.shields.io/cocoapods/v/TezosGen.svg?style=flat)](http://cocoapods.org/pods/TezosGen)
-[![License](https://img.shields.io/cocoapods/l/TezosGen.svg?style=flat)](http://cocoapods.org/pods/TezosGen)
+
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg?style=flat&colorA=28a745&&colorB=4E4E4E)](https://github.com/apple/swift-package-manager)
 [![Platform](https://img.shields.io/cocoapods/p/TezosGen.svg?style=flat)](http://cocoapods.org/pods/TezosGen)
 
-## What's tezosgen
+## What's tezos app
 
-tezosgen is a smart contract code generator - you just specify the smart contract's specification and tezosgen generates type-safe `.swift` files, so using smart contracts in your iOS or Mac app has never been easier!
+tezos app is a smart contract code generator - you just specify the smart contract's specification and tezosgen generates type-safe `.swift` files, so using smart contracts in your iOS or Mac app has never been easier!
 
-This project has been published as a part of [Tezos-iOS-Dev-Kit](https://github.com/AckeeCZ/Tezos-iOS-Dev-Kit)
 
 ## Installation
 
@@ -30,18 +29,18 @@ $ tezosgen
 <details>
 <summary>Via <strong>CocoaPods</strong></summary>
 
-If you're using CocoaPods, you can simply add `pod 'TezosGen' ~> 1.1.1` to your `Podfile`.
+If you're using CocoaPods, you can simply add `pod 'Tezos app' ~> 1.1.1` to your `Podfile`.
 
-This will download the `tezosgen` binaries and dependencies in `Pods/` during your next `pod install` execution.
+This will download the `tezos app` binaries and dependencies in `Pods/` during your next `pod install` execution.
 
 Given that you can specify an exact version for ``tezosgen`` in your `Podfile`, this allows you to ensure **all coworkers will use the same version of tezosgen for this project**.
 
-You can then invoke tezosgen from your terminal:
+You can then invoke tezos app from your terminal:
 ```sh
-Pods/tezosgen/tezosgen …
+Pods/tezos app/tezos app …
 ```
 
-_Note: tezosgen isn't really a pod, as it's not a library your code will depend on at runtime; so the installation via CocoaPods is just a trick that installs the tezosgen binaries in the Pods/ folder, but you won't see any swift files in the Pods/tezosgen group in your Xcode's Pods.xcodeproj. That's normal: the tezosgen binary is still present in that folder in the Finder._
+_Note: tezos app isn't really a pod, as it's not a library your code will depend on at runtime; so the installation via CocoaPods is just a trick that installs the tezos app binaries in the Pods/ folder, but you won't see any swift files in the Pods/tezos app group in your Xcode's Pods.xcodeproj. That's normal: the tezos app binary is still present in that folder in the Finder._
 
 ---
 </details>
