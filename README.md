@@ -8,7 +8,7 @@
 
 ## What's tezos app
 
-tezos app is a smart contract code generator - you just specify the smart contract's specification and tezosgen generates type-safe `.swift` files, so using smart contracts in your iOS or Mac app has never been easier!
+tezos app is a smart contract code generator - you just specify the smart contract's specification and tezos app generates type-safe `.swift` files, so using smart contracts in your iOS or Mac app has never been easier!
 
 
 ## Installation
